@@ -9,6 +9,13 @@
 
     <dependencies>
         <dependency>
+          <groupId>com.google.api-client</groupId>
+          <artifactId>google-api-client</artifactId>
+          <version>1.18.0-rc</version>
+        </dependency>
+      </dependencies>
+      
+        <dependency>
             <groupId>com.google.android</groupId>
             <artifactId>android</artifactId>
             <version>4.2.2</version>
