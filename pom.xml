@@ -13,7 +13,6 @@
           <artifactId>google-api-client</artifactId>
           <version>1.18.0-rc</version>
         </dependency>
-      </dependencies>
       
         <dependency>
             <groupId>com.google.android</groupId>
