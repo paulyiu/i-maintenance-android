@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Simple Android Application</string>
-    <string name="greeting">Congratulations! You have just created an Android Application with Codenvy</string>
-    <string name="title_activity_main">MainActivity</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-    <string name="default_status"/>
-    <string name="greeting_status">Welcome, %s.</string>
-    <string name="greeting_status_sign_in_required">Sign-in required</string>
-    <string name="greeting_status_error">Error signing in: %s.</string>
-    <string name="loading_status">Loading…</string>
-    <string name="signing_in_status">Signing in with Google+.</string>
-    <string name="signed_in_status">Signed in as \"%s\".</string>
+    <string name="action_settings">AppSetting</string>
+    <string name="app_name">HomeCare Alliance</string>
+    <string name="circles_title">Visible circles:</string>
     <string name="sign_out_button_name">Sign out</string>
-    <string name="revoke_access_button_name">Revoke access</string>   
+    <string name="revoke_access_button_name">Revoke</string>
+    <string name="status_sign_in_required">Sign-in required</string>
+    <string name="status_sign_in_error">Error signing in: %s</string>
+    <string name="status_loading">Loading…</string>
+    <string name="status_signing_in">Signing in with Google+…</string>
+    <string name="status_signed_out">Signed out</string>
+    <string name="status_revoke_access">Revoked access</string>
+    <string name="status_revoke_access_error">Error revoking access: %s</string>
+    <string name="signed_in_as">Signed in as %s</string>
+
     <!-- Used if there was an error loading the signed in user's name. -->
     <string name="unknown_person">Unknown</string>
-    <string name="signed_out_status">Signed out.</string>
-    <string name="revoke_access_status">Revoked access.</string>
-    <string name="revoke_access_error_status">Unable to revoke access.</string>
+    <string name="play_services_error">Google Play services is not available.  This application will close.</string>
+    <string name="close">Close</string>
+    <string name="profile_picture">User\'s profile picture.</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="hello_world">Hello world!</string>
+
 </resources>
